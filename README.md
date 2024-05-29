@@ -25,7 +25,7 @@ toolbox = base.Toolbox()
 def main():
     start_time = time.time()  
     random.seed(1)  
-    distancias = leer_distancias("C:\\Users\\Jonathan\\Desktop\\Genetico.xlsx") // Ubicación del archivo
+    distancias = leer_distancias("C:\\Users\\Jonathan\\Desktop\\GeneticoR2.xlsx") // Ubicación del archivo
     num_nodos = len(distancias)
     
     def create_individual():
